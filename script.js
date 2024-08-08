@@ -18,7 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
   userChatId = user_data["id"];
   document.getElementById('buttonStory').addEventListener("click", () => {
     app.shareToStory('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/600px-Example_image.svg.png')
-      .then(data => console.log(data))
-      .catch(error => console.log(error))
   })
 });
