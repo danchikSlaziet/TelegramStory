@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('buttonStory').addEventListener("click", () => {
     app.shareToStory('./istockphoto.jpg', {text: 'example text', widget_link: {
       url: 'https://t.me/biesse_bot/telegramStory',
-      name: '@nameWidgetLink'
+      name: '@biesse_bot'
     }})
   })
 });
