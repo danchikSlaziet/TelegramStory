@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   app.ready();
   userChatId = user_data["id"];
   document.getElementById('buttonStory').addEventListener("click", () => {
-    app.shareToStory('./istockphoto.jpg', {text: 'example text', widget_link: {
+    app.shareToStory('./photo_2024-08-15_17-17-37.jpg', {text: 'example text', widget_link: {
       url: 'https://t.me/biesse_bot/telegramStory',
       name: '@biesse_bot'
     }})
