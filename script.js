@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
   app.ready();
   userChatId = user_data["id"];
   document.getElementById('buttonStory').addEventListener("click", () => {
-    app.shareToStory('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Example_image.svg/600px-Example_image.svg.png')
+    app.shareToStory('./istockphoto.jpg', {text: 'example text', widget_link: {
+      url: 'https://t.me/biesse_bot/telegramStory',
+      name: '@nameWidgetLink'
+    }})
   })
 });
